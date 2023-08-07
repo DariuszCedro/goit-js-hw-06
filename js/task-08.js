@@ -13,6 +13,6 @@ function handleSubmit(event) {
   }
 
   const user = { email: `${email.value}`, password: `${password.value}` };
-  //console.log(user);
+  console.log(user);
   event.currentTarget.reset();
 }
